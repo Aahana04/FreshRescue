@@ -27,10 +27,6 @@ This is a starter project built to learn and explore how we can use technology t
 ---
 
 
-arby.
-- Simple dashboard to view food listings.
-
----
 
 <!-- Notes
 This is a learning project. Many features are under development.
