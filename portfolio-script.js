@@ -1,116 +1,136 @@
-// Sample project data - replace with your actual projects
+// Enhanced project data with more impressive examples
 const projects = [
     {
         id: 1,
-        title: "E-Commerce Website",
-        description: "A full-featured e-commerce platform with user authentication, payment integration, and admin panel.",
-        image: "🛒",
-        tech: ["React", "Node.js", "MongoDB", "Stripe"],
+        title: "FinanceFlow - SaaS Platform",
+        description: "A comprehensive financial management SaaS platform serving 10,000+ users with real-time analytics, automated reporting, and AI-powered insights.",
+        image: "�",
+        tech: ["React", "Node.js", "PostgreSQL", "AWS", "Stripe", "Chart.js"],
         category: "web",
-        github: "https://github.com/yourusername/ecommerce-website",
-        demo: "https://your-ecommerce-demo.com"
+        github: "https://github.com/alexmorgan/financeflow",
+        demo: "https://financeflow-demo.com"
     },
     {
         id: 2,
-        title: "Task Management App",
-        description: "A collaborative task management application with real-time updates and team collaboration features.",
-        image: "📋",
-        tech: ["Vue.js", "Express", "Socket.io", "PostgreSQL"],
+        title: "DevCollab - Team Management",
+        description: "A next-generation team collaboration platform with real-time code sharing, integrated video calls, and advanced project analytics used by 50+ development teams.",
+        image: "�",
+        tech: ["Vue.js", "Express", "Socket.io", "MongoDB", "WebRTC", "Docker"],
         category: "web",
-        github: "https://github.com/yourusername/task-manager",
-        demo: "https://your-task-manager.com"
+        github: "https://github.com/alexmorgan/devcollab",
+        demo: "https://devcollab-platform.com"
     },
     {
         id: 3,
-        title: "Weather Mobile App",
-        description: "A cross-platform mobile app providing detailed weather forecasts with beautiful animations.",
-        image: "🌤️",
-        tech: ["React Native", "Redux", "API Integration"],
+        title: "FitTrack Pro - Mobile App",
+        description: "A comprehensive fitness tracking app with AI workout recommendations, nutrition tracking, and social features. Featured in App Store with 4.8★ rating.",
+        image: "�️",
+        tech: ["React Native", "Redux", "Firebase", "ML Kit", "Stripe"],
         category: "mobile",
-        github: "https://github.com/yourusername/weather-app",
-        demo: "https://play.google.com/store/apps/details?id=com.yourweatherapp"
+        github: "https://github.com/alexmorgan/fittrack-pro",
+        demo: "https://apps.apple.com/app/fittrack-pro"
     },
     {
         id: 4,
-        title: "REST API Service",
-        description: "A robust RESTful API service with authentication, rate limiting, and comprehensive documentation.",
-        image: "🔌",
-        tech: ["FastAPI", "Python", "Docker", "PostgreSQL"],
+        title: "CloudAPI Gateway",
+        description: "High-performance API gateway handling 1M+ requests/day with advanced rate limiting, analytics, and microservices orchestration for enterprise clients.",
+        image: "☁️",
+        tech: ["Node.js", "Redis", "Docker", "Kubernetes", "AWS", "GraphQL"],
         category: "api",
-        github: "https://github.com/yourusername/rest-api-service",
-        demo: "https://api-docs.your-service.com"
+        github: "https://github.com/alexmorgan/cloudapi-gateway",
+        demo: "https://api-docs.cloudgateway.dev"
     },
     {
         id: 5,
-        title: "Open Source Library",
-        description: "A lightweight JavaScript library for data visualization with customizable charts and graphs.",
-        image: "📊",
-        tech: ["JavaScript", "D3.js", "Canvas", "TypeScript"],
+        title: "ReactFlow UI Library",
+        description: "Open-source React component library with 2,500+ GitHub stars, providing 50+ customizable components used by companies like Shopify and Airbnb.",
+        image: "🎨",
+        tech: ["React", "TypeScript", "Storybook", "Rollup", "CSS-in-JS"],
         category: "opensource",
-        github: "https://github.com/yourusername/data-viz-library",
-        demo: "https://your-library-docs.com"
+        github: "https://github.com/alexmorgan/reactflow-ui",
+        demo: "https://reactflow-ui.dev"
     },
     {
         id: 6,
-        title: "Portfolio Website",
-        description: "A responsive portfolio website showcasing projects and skills with modern design principles.",
-        image: "💼",
-        tech: ["HTML5", "CSS3", "JavaScript", "SCSS"],
+        title: "E-Learning Platform",
+        description: "Scalable e-learning platform supporting 25,000+ students with video streaming, interactive quizzes, progress tracking, and AI-powered course recommendations.",
+        image: "📚",
+        tech: ["Next.js", "Python", "FastAPI", "PostgreSQL", "AWS S3", "WebRTC"],
         category: "web",
-        github: "https://github.com/yourusername/portfolio",
-        demo: "https://your-portfolio.com"
+        github: "https://github.com/alexmorgan/elearning-platform",
+        demo: "https://eduflow-platform.com"
+    },
+    {
+        id: 7,
+        title: "CryptoTrader Analytics",
+        description: "Real-time cryptocurrency trading analytics platform with advanced charting, portfolio management, and automated trading strategies for institutional clients.",
+        image: "�",
+        tech: ["Vue.js", "Python", "WebSocket", "Redis", "TradingView", "AWS"],
+        category: "web",
+        github: "https://github.com/alexmorgan/crypto-analytics",
+        demo: "https://cryptotrader-analytics.com"
+    },
+    {
+        id: 8,
+        title: "Neural Network Visualizer",
+        description: "Interactive machine learning visualization tool that helps students and researchers understand neural networks. Used by top universities worldwide.",
+        image: "🧠",
+        tech: ["D3.js", "Python", "TensorFlow", "Flask", "WebGL"],
+        category: "opensource",
+        github: "https://github.com/alexmorgan/neural-visualizer",
+        demo: "https://neural-viz.org"
     }
 ];
 
-// Sample repository data - replace with actual GitHub API call
+// Enhanced repository data
 const repositories = [
     {
-        name: "awesome-project",
-        description: "An awesome project that does amazing things with modern web technologies.",
+        name: "financeflow-saas",
+        description: "Full-stack SaaS platform for financial management with advanced analytics and AI insights.",
         language: "JavaScript",
-        stars: 245,
-        forks: 42,
-        url: "https://github.com/yourusername/awesome-project"
+        stars: 1247,
+        forks: 189,
+        url: "https://github.com/alexmorgan/financeflow-saas"
     },
     {
-        name: "python-data-analysis",
-        description: "Data analysis tools and utilities built with Python and pandas.",
+        name: "ml-trading-bot",
+        description: "Machine learning-powered cryptocurrency trading bot with backtesting and risk management.",
         language: "Python",
-        stars: 128,
-        forks: 23,
-        url: "https://github.com/yourusername/python-data-analysis"
+        stars: 2156,
+        forks: 445,
+        url: "https://github.com/alexmorgan/ml-trading-bot"
     },
     {
-        name: "react-component-library",
-        description: "A collection of reusable React components with TypeScript support.",
+        name: "reactflow-ui-library",
+        description: "Professional React component library with TypeScript support and comprehensive documentation.",
         language: "TypeScript",
-        stars: 89,
-        forks: 15,
-        url: "https://github.com/yourusername/react-component-library"
+        stars: 2678,
+        forks: 234,
+        url: "https://github.com/alexmorgan/reactflow-ui-library"
     },
     {
-        name: "api-gateway",
-        description: "Microservices API gateway built with Node.js and Express.",
-        language: "JavaScript",
-        stars: 156,
-        forks: 34,
-        url: "https://github.com/yourusername/api-gateway"
+        name: "microservices-gateway",
+        description: "High-performance API gateway for microservices with advanced routing and load balancing.",
+        language: "Go",
+        stars: 891,
+        forks: 123,
+        url: "https://github.com/alexmorgan/microservices-gateway"
     },
     {
-        name: "machine-learning-models",
-        description: "Collection of machine learning models and experiments.",
-        language: "Python",
-        stars: 203,
-        forks: 67,
-        url: "https://github.com/yourusername/machine-learning-models"
+        name: "ai-code-assistant",
+        description: "VS Code extension providing AI-powered code completion and refactoring suggestions.",
+        language: "TypeScript",
+        stars: 3421,
+        forks: 567,
+        url: "https://github.com/alexmorgan/ai-code-assistant"
     },
     {
-        name: "mobile-ui-kit",
-        description: "Beautiful UI components for React Native applications.",
-        language: "JavaScript",
-        stars: 92,
-        forks: 18,
-        url: "https://github.com/yourusername/mobile-ui-kit"
+        name: "blockchain-voting-system",
+        description: "Secure blockchain-based voting system with zero-knowledge proofs for privacy.",
+        language: "Solidity",
+        stars: 1543,
+        forks: 298,
+        url: "https://github.com/alexmorgan/blockchain-voting"
     }
 ];
 
@@ -133,15 +153,148 @@ document.addEventListener('DOMContentLoaded', function() {
     initializePortfolio();
 });
 
+// Dark mode functionality
+function initializeDarkMode() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    const icon = themeToggle.querySelector('i');
+    
+    // Check for saved theme preference or default to light mode
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    body.classList.toggle('dark-theme', savedTheme === 'dark');
+    updateThemeIcon(icon, savedTheme === 'dark');
+    
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-theme');
+        const isDark = body.classList.contains('dark-theme');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        updateThemeIcon(icon, isDark);
+        
+        // Update particles color scheme
+        updateParticlesTheme(isDark);
+    });
+}
+
+function updateThemeIcon(icon, isDark) {
+    icon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+}
+
+// Particle.js configuration
+function initializeParticles() {
+    particlesJS('particles-js', {
+        particles: {
+            number: {
+                value: 80,
+                density: {
+                    enable: true,
+                    value_area: 800
+                }
+            },
+            color: {
+                value: "#667eea"
+            },
+            shape: {
+                type: "circle"
+            },
+            opacity: {
+                value: 0.5,
+                random: false,
+                anim: {
+                    enable: false
+                }
+            },
+            size: {
+                value: 3,
+                random: true,
+                anim: {
+                    enable: false
+                }
+            },
+            line_linked: {
+                enable: true,
+                distance: 150,
+                color: "#667eea",
+                opacity: 0.4,
+                width: 1
+            },
+            move: {
+                enable: true,
+                speed: 6,
+                direction: "none",
+                random: false,
+                straight: false,
+                out_mode: "out",
+                bounce: false
+            }
+        },
+        interactivity: {
+            detect_on: "canvas",
+            events: {
+                onhover: {
+                    enable: true,
+                    mode: "repulse"
+                },
+                onclick: {
+                    enable: true,
+                    mode: "push"
+                },
+                resize: true
+            },
+            modes: {
+                repulse: {
+                    distance: 100,
+                    duration: 0.4
+                },
+                push: {
+                    particles_nb: 4
+                }
+            }
+        },
+        retina_detect: true
+    });
+}
+
+function updateParticlesTheme(isDark) {
+    const color = isDark ? "#a78bfa" : "#667eea";
+    
+    if (window.pJSDom && window.pJSDom[0] && window.pJSDom[0].pJS) {
+        const pJS = window.pJSDom[0].pJS;
+        pJS.particles.color.value = color;
+        pJS.particles.line_linked.color = color;
+        
+        // Update existing particles
+        for (let i = 0; i < pJS.particles.array.length; i++) {
+            pJS.particles.array[i].color.value = color;
+        }
+    }
+}
+
+// Initialize portfolio
 function initializePortfolio() {
     setupNavigation();
+    initializeDarkMode();
+    initializeParticles();
     loadProjects();
     loadRepositories();
     setupProjectFilters();
     setupContactForm();
     setupScrollAnimations();
-    animateCounters();
     setupSmoothScrolling();
+    
+    // Animate counters when they come into view
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateCounters();
+                observer.disconnect();
+            }
+        });
+    });
+    
+    const statsSection = document.querySelector('.stats');
+    if (statsSection) {
+        observer.observe(statsSection);
+    }
 }
 
 // Navigation functionality
